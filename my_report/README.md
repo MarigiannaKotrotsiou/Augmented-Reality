@@ -2,8 +2,8 @@
 
 ### First and Last Name: Maria Ioanna Kotrotsiou
 ### University Registration Number: dpsd19057
-### GitHub Personal Profile: https://github.com/MarigiannaKotrotsiou
-### Augmented Reality Personal Repository: https://marigiannakotrotsiou.github.io/Augmented-Reality/
+### GitHub Personal Profile: [Here](https://github.com/MarigiannaKotrotsiou)
+### Augmented Reality Personal Repository: [Here](https://marigiannakotrotsiou.github.io/Augmented-Reality/)
 
 # Introduction
 
