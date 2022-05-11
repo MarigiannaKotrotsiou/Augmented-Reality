@@ -19,15 +19,23 @@
 
 # 2nd Deliverable
 <p>Για το πρώτο μέρος του παραδοτέου, δηλάδη για την δημιουργία custom marker που θα εμφανίζει τα στοιχεία μου και μια φωτογραφία, ξεκίνησα με την δημιουργία του marker μου. Έβαλα την εικόνα με το dpsd στο Paint για να βάλω το δικό μου dpsd, μετά έψαξα πως να φτιάξω το marker και χρησιμοποίησα αυτές τις πηγές (καθώς και εκείνη που μας δινόταν στην περιγραφή του παραδοτέου)
+  
   -https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105
-  -https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html και κατέβασα το marker σε .png και σε .patt. Για να καταλάβω πως λειτουργεί το marker και πως να βάλω την εικόνα χρησιμοποίησα τις παρακάτω πηγές. 
+  
+  -https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html 
+  και κατέβασα το marker σε .png και σε .patt. Για να καταλάβω πως λειτουργεί το marker και πως να βάλω την εικόνα χρησιμοποίησα τις παρακάτω πηγές. 
 Γενικά, μου πήρε παραπάνω ώρα να εμφανίσω την εικόνα καθώς στην αρχή νόμιζα πως χρειαζόταν να μπει κάποιο url, καθώς και τα assets μου δεν λειτουργούσαν αλλά το έφτιαξα. 
+  
  -https://aframe.io/blog/arjs/
+  
  -https://aframe.io/docs/1.3.0/primitives/a-image.html
+  
  -https://www.quora.com/How-do-I-get-the-URL-of-an-image-on-my-computer
+  
  -https://stackoverflow.com/questions/62076685/a-frame-image-displaying-flat<p>
 
 <p>Για το δεύτερο μέρος του παραδοτέου, έκατσα δύο μέρες και έμαθα να κάνω animation στο blender (δεν έχω κρατήσει τις πηγές αλλά για κάθε βήμα που έκανα άνοιγα καινούριο how-to, tutorial και forum). Έφτιαξα τα markers του οξυγόνου και του υδρογόνου χρησιμοποιώντας τα παράπανω link. Για τον κώδικα των animation χρησιμοποίησα
+  
   -https://arjanvanbekkum.github.io/blog/2019/10/06/Augmented-Reality-Website<p>
 
 
