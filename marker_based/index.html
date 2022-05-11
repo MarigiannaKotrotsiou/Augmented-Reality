@@ -20,8 +20,6 @@
                  embedded
                  arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
 
-
-
             <!--DPSD Marker-->
             <a-marker preset="pattern" type="pattern" url="assets/pattern-dpsd19057.patt">
                 <a-text color="#235e1d" value="Kotrotsiou Marigiann" width="5" rotation="-90 0 0" class="bolded" position=" -1 0 -1.5"></a-text>
@@ -56,15 +54,6 @@
                               animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;">
                 </a-gltf-model>
             </a-marker>
-
-            <!--Water-->
-            <a-gltf-model src="assets/h2o.gltf"
-                          id="h2o"
-                          scale="0.1 0.1 0.1"
-                          position="0 0 -1.5"
-                          animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;">
-            </a-gltf-model>
-
             <a-entity camera></a-entity>
         </a-scene>
 </body>
