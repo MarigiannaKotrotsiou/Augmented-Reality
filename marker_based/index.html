@@ -15,6 +15,47 @@
 
 <body style="margin : 0px; overflow: hidden;">
 
+    <script>
+        AFRAME.registerComponent("marker-distance", {
+
+            init: function () {
+
+                this.hy = document.querySelector('#hy')
+                this.ox = document.querySelector('#ox')
+                this.water = document.querySelector('#water')
+                this.marker1 = document.querySelector('#oxMarker')
+                this.marker2 = document.querySelector('#hyMarker')
+
+            },
+            tick: function () {
+                var marker1Pos, marker2Pos, markerDistance
+
+                marker1Pos = new THREE.Vector3();
+                this.marker1.object3D.getWorldPosition(marker1Pos);
+
+                marker2Pos = new THREE.Vector3();
+                this.marker2.object3D.getWorldPosition(marker2Pos);
+
+                markerDistance = marker1Pos.distanceTo(marker2Pos);
+
+                if (markerDistance < 2) {
+
+                    this.hy.setAttribute("visible", false)
+                    this.ox.setAttribute("visible", false)
+                    this.water.setAttribute("visible", true)
+
+                }
+                else {
+
+                    this.hy.setAttribute("visible", true)
+                    this.ox.setAttribute("visible", true)
+                    this.water.setAttribute("visible", false)
+
+                }
+            },
+        });
+
+    </script>
     <a-scene vr-mode-ui="enabled: false;"
                  renderer="logarithmicDepthBuffer: true;"
                  embedded
@@ -30,6 +71,7 @@
             <a-assets>
                 <a-asset-item id="O" src="assets/oxygen.gltf"></a-asset-item>
                 <a-asset-item id="H" src="assets/hy.gltf"></a-asset-item>
+                <a-asset-item id="water" src="assets/h2o.gltf"></a-asset-item>
             </a-assets>
 
             <!--Hydrogen-->
@@ -53,6 +95,16 @@
                               animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;">
                 </a-gltf-model>
             </a-marker>
+        
+            <!-- Water -->
+        <a-entity gltf-model="#h2o"
+                  id="water"
+                  scale="0.1 0.1 0.1"
+                  position=" 0 0 -1.5"
+                  animation__rotate="property: rotation; dur: 5000; easing: linear; dir: normal; from:0 0 0; to: 0 360 0; loop: true;">
+        </a-entity>
+        
+             <a-entity marker-distance></a-entity>
             <a-entity camera></a-entity>
         </a-scene>
 </body>
