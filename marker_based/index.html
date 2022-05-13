@@ -20,11 +20,11 @@
 
             init: function () {
 
-                this.hy = document.querySelector('#hy')
-                this.ox = document.querySelector('#ox')
+                this.hydrogen = document.querySelector('#H')
+                this.oxygen = document.querySelector('#O')
                 this.water = document.querySelector('#water')
-                this.marker1 = document.querySelector('#oxMarker')
-                this.marker2 = document.querySelector('#hyMarker')
+                this.marker1 = document.querySelector('#HydrogenMarker')
+                this.marker2 = document.querySelector('#OxygenMarker')
 
             },
             tick: function () {
@@ -40,22 +40,22 @@
 
                 if (markerDistance < 2) {
 
-                    this.hy.setAttribute("visible", false)
-                    this.ox.setAttribute("visible", false)
+                    this.hydrogen.setAttribute("visible", false)
+                    this.oxygen.setAttribute("visible", false)
                     this.water.setAttribute("visible", true)
 
                 }
                 else {
 
-                    this.hy.setAttribute("visible", true)
-                    this.ox.setAttribute("visible", true)
+                    this.hydrogen.setAttribute("visible", true)
+                    this.oxygen.setAttribute("visible", true)
                     this.water.setAttribute("visible", false)
 
                 }
             },
         });
-
     </script>
+    
     <a-scene vr-mode-ui="enabled: false;"
                  renderer="logarithmicDepthBuffer: true;"
                  embedded
