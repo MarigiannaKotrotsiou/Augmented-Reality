@@ -19,14 +19,18 @@
 
 # 2nd Deliverable
 <p>Για το πρώτο μέρος του παραδοτέου, δηλάδη για την δημιουργία custom marker που θα εμφανίζει τα στοιχεία μου και μια φωτογραφία, ξεκίνησα με την δημιουργία του marker μου. Έβαλα την εικόνα με το dpsd στο Paint για να βάλω το δικό μου dpsd, μετά έψαξα πως να φτιάξω το marker και χρησιμοποίησα <a href="https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105"> αυτές</a> <a href="https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html"> τις πηγές</a>, καθώς και εκείνη που μας δινόταν στην περιγραφή του παραδοτέου και κατέβασα το marker σε .png και σε .patt. Για να καταλάβω πως λειτουργεί το marker και πως να βάλω την εικόνα χρησιμοποίησα τις παρακάτω πηγές. Γενικά, μου πήρε παραπάνω ώρα να εμφανίσω την εικόνα καθώς στην αρχή νόμιζα πως χρειαζόταν να μπει κάποιο url, καθώς και τα assets μου δεν λειτουργούσαν αλλά το έφτιαξα <a href="https://aframe.io/blog/arjs/"> με</a> <a href="https://aframe.io/docs/1.3.0/primitives/a-image.html"> αυτά</a> <a href="https://www.quora.com/How-do-I-get-the-URL-of-an-image-on-my-computer"> τα</a> <a href="https://stackoverflow.com/questions/62076685/a-frame-image-displaying-flat"> links.</a>
-
+<p><img src="1.png" height="200" width-"200"><p>
+  
 <p>Για το δεύτερο μέρος του παραδοτέου, έκατσα δύο μέρες και έμαθα να κάνω animation στο blender (δεν έχω κρατήσει τις πηγές αλλά για κάθε βήμα που έκανα άνοιγα καινούριο how-to, tutorial και forum). Έφτιαξα τα markers του οξυγόνου και του υδρογόνου χρησιμοποιώντας τα παράπανω link. Για τον κώδικα των animation χρησιμοποίησα <a href="https://arjanvanbekkum.github.io/blog/2019/10/06/Augmented-Reality-Website"> αυτό.</a><p>
+  <p><img src="h.png" height="200" width-"200"><img src="o.png" height="200" width-"200"><p>
   
 <p>Για το τρίτο μέρος του παραδοτέου, πρόσθεσα το animation του νερού στα assets. <a href="https://stackoverflow.com/questions/61239107/how-to-get-marker-position-x-y-ar-js"> Και</a> <a href="https://aframe.io/docs/1.3.0/core/entity.html#properties"> με</a> <a href="https://stackoverflow.com/questions/67578125/a-frame-show-gltf-model-if-variable-has-a-certain-value"> αυτές</a> <a href="https://aframe.io/docs/0.8.0/introduction/writing-a-component.html"> τις</a> <a href="https://threejs.org/docs/#api/en/math/Vector3l"> πηγές</a> έφτιαξα τον κώδικα με την απόσταση και το script που χρειαζόταν. Αυτή τη στιγμή δεν ξέρω αν λειτουργεί αλλά δεν ξέρω τι μπορεί να φταίει.<p>
-
+<p><img src="water.png" height="200" width-"200"><p>
 
 # 3rd Deliverable 
-
+<p>Για το πρώτο και το δεύτερο μέρος του τρίτου παραδοτέου, δηλαδή τη τοποθέτηση ενός 3d μοντέλου κάποιοy monument, μπήκα <a href="https://sketchfab.com/search?q=leaning+tower+of+pisa&type=models"> εδώ</a> και έψαξα να βρω ένα μοντέλο που μου άρεσε και μπορούσα να κατεβάσω δωρεάν. Βρήκα τις συντενταγμένες στο google και τις πρόσθεσα στο gps-entity-place, καθώς και στο gps-camera.<p>
+  <p><img src="coordinates.png" height="200" width="200"><p>
+   <p> Με την βοήθεια <a href="https://aframe.io/blog/arjs3/"> αυτών</a><a href="https://aframe.io/docs/1.3.0/components/text.html#fonts2_kelsonsans"> των πηγών</a> έφτiαξα την κάμερα και το text.
 
 # Conclusions
 
