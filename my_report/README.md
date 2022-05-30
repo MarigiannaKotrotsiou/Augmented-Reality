@@ -31,7 +31,7 @@
 <p>Για το πρώτο και το δεύτερο μέρος του τρίτου παραδοτέου, δηλαδή τη τοποθέτηση ενός 3d μοντέλου κάποιοy monument, μπήκα <a href="https://sketchfab.com/search?q=leaning+tower+of+pisa&type=models"> εδώ</a> και έψαξα να βρω ένα μοντέλο που μου άρεσε και μπορούσα να κατεβάσω δωρεάν. Βρήκα τις συντενταγμένες στο google και τις πρόσθεσα στο gps-entity-place, καθώς και στο gps-camera.<p>
   <p><img src="coordinates.png" height="200" width="200"><p>
    <p> Με την βοήθεια <a href="https://aframe.io/blog/arjs3/"> αυτών</a><a href="https://aframe.io/docs/1.3.0/components/text.html#fonts2_kelsonsans"> των πηγών</a> έφτiαξα την κάμερα και το text.
-
+<p><img src="a1.png" height="200" width="200"><img src="a2.png" height="200" width="200"><p>
 # Conclusions
 
 
