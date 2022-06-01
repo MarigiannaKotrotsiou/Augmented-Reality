@@ -54,7 +54,7 @@
    
 ## <p>Sources for the 3rd Deliverable<p>
  <p><a href="https://sketchfab.com/search?q=leaning+tower+of+pisa&type=models"> 3D Models</a><p>
- <p><a href="https://aframe.io/blog/arjs3/"> Camera</a><p>
+ <p><a href="https://aframe.io/blog/arjs3/"> Camera 1</a> / <a href="https://ar-js-org.github.io/AR.js-Docs/location-based/"> Camera 2</a><p>
  <p><a href="https://aframe.io/docs/1.3.0/components/text.html#fonts2_kelsonsans"> Text</a><p>
 
   
