@@ -31,10 +31,11 @@
 
 # 3rd Deliverable 
 <p>Για το πρώτο και το δεύτερο μέρος του τρίτου παραδοτέου, δηλαδή τη τοποθέτηση ενός 3d μοντέλου κάποιοy monument, έψαξα να βρω ένα μοντέλο που μου άρεσε και μπορούσα να κατεβάσω δωρεάν. Βρήκα τις συντενταγμένες στο google και τις πρόσθεσα στο gps-entity-place, καθώς και στο gps-camera.<p>
-  <p><img src="coordinates.png" height="200" width="200"><p>
+  <p><img src="coordinates.png" height="250" width="200"><p>
    <p> Έφτιαξα την κάμερα και το text, και γενικα έπαιξα αρκετή ώρα με το position και το scale μέχρι το μοντέλο και το κείμενο να είναι σε ορατό σημείο.<p>
 <p><img src="a1.png" height="200" width="200"><img src="a2.png" height="200" width="200"><p>
-  
+  <p>Για το τρίτο μέρος έβγαλα μία φωτογραφία έξω από το σπίτι μου, και βρήκα τις συντεταγμένες στο google maps. Έβαλα την εικόνα στον κώδικα και έβγαλα το stimulateLatitude / stimulateLongtitude από το a-camera<p>
+  <p><img src="map.png" height="200" width="300"><img src="coordinates2.png" height="100" width="400"><img src="spiti.png" height="200" width="200"><p>
 # Conclusions
 
 
